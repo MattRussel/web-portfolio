@@ -93,10 +93,11 @@ li a:hover::before{
 }
 
 section{
-    min-height: 100vh;
+    margin-top: 8rem;
     padding: 0rem 12%;
     width: 100%;
     position: relative;
+    margin-bottom: 2rem;
 }
 
 .about{
@@ -352,7 +353,7 @@ footer ul li a{
     font-weight: 600;
 }
 
-.copuright{
+.copyright{
     font-size: 300;
     margin-top: 2rem;
 }
@@ -412,6 +413,13 @@ footer ul li a{
 @media(max-width: 600px){
     header #menu-icon{
         display: block;
+        margin-left: auto;
+        order: 2;
+    }
+    
+    .logo {
+        order: 1;
+        margin-right: auto;
     }
     .nav-links{
         position: absolute;
@@ -437,11 +445,12 @@ footer ul li a{
         display: block;
     }
     header{
-        padding: 1rem 5rem;
-        gap: 8rem;
+        padding: 0.8rem 2rem;
+        gap: 2rem;
+        justify-content: space-between;
     }
     header .logo{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .about-container img{
