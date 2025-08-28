@@ -186,6 +186,10 @@ section{
     font-size: 4rem;
     font-weight: 600;
     margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .experience-info{
